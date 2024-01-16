@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+header .et_builder_inner_content {
+    z-index: unset;
+}
+
+
+.et_builder_inner_content .et_pb_section:first-child {
+    padding-top: 0 !important;
+}
+
+.et_builder_inner_content .et_pb_section:first-child {
+    padding-top: 0 !important;
+}
+
+#main-header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+#main-header {
+    transition: background-color 0.4s, color 0.4s, transform 0.4s, opacity 0.4s linear, -webkit-transform 0.4s !important;
+}
+
+#et-boc #main-header .et_pb_menu_inner_container {
+    display: flex;
+    align-items: center;
+}
+
+header .et_pb_menu_inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+} 
+
+.et_pb_menu__logo-wrap {
+    margin-right: 30px;
+}
+
+.et_pb_menu__logo-wrap {
+    position: relative;
+    z-index: 999999;
+}
+
+header .et_pb_menu__wrap {
+    max-width: 1065px;
+    margin: 0 auto;
+}
+
+#et-boc #main-header .nav {
+    display: flex;
+    align-items: center;
+}
+
+#et-boc #top-menu>li,
+#et-boc #main-header ul[id^=menu-main-menu]>li {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#et-boc #main-header .nav>li>a {
+    /* color: #FFF; */
+    padding: 31px 15px 31px 20px;
+}
+
+#et-boc #main-header .nav>li>a::after {
+    color: #75b843;
+}
+
+#et-boc #main-header .nav>li>a::after {
+    top: 50% !important;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
