@@ -13,64 +13,10 @@
     left: 50%;
     right: auto;
     transform: translateX(-50%);
-}
-
-.et_pb_row_0_tb_header.et_pb_row {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.et_pb_row_0_tb_header{
-    width: 100%;
-    max-width: 100%;
-}
-
-.et_pb_row_0_tb_header {
-    border-color: RGBA(255, 255, 255, 0);
-    z-index: 99999 !important;
-    position: relative;
-}
-
-.et_pb_row .et_pb_column.et-last-child,
-.et_pb_row .et_pb_column:last-child,
-.et_pb_row_inner .et_pb_column.et-last-child,
-.et_pb_row_inner .et_pb_column:last-child {
-    margin-right: 0 !important;
-}
-
-.et_pb_gutters3 .et_pb_column_4_4,
-.et_pb_gutters3.et_pb_row .et_pb_column_4_4 {
-    width: 100%;
-}
-.et_pb_column_0_tb_header {
-    z-index: 0 !important;
-    position: static !important;
-    top: 0px;
-    right: auto;
-    bottom: auto;
-    left: 0px;
-}
-.et_pb_column,
-.et_pb_row,
-.et_pb_row_inner {
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
-
-#et-boc #main-header .et_pb_menu_inner_container {
-    display: flex;
-    align-items: center;
+    width: max-content;
 }
 
 header .et_pb_menu_inner_container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     display: flex;
@@ -177,7 +123,7 @@ et_pb_with_border.et_pb_menu .et_pb_menu__logo img {
     line-height: 23px;
     font-weight: 500;
     top: 0;
-    width: 100%;
+    width: max-content;
     position: relative;
     z-index: 99999;
 }
@@ -190,34 +136,7 @@ et_pb_with_border.et_pb_menu .et_pb_menu__logo img {
     align-items: stretch;
 }
 
-.et_pb_menu .et_pb_menu__menu {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
 
-.et_pb_menu .et-menu-nav,
-.et_pb_menu .et-menu-nav>ul {
-    float: none;
-}
-
-#top-menu,
-.et-menu,
-nav#top-menu-nav,
-nav.et-menu-nav {
-    float: left;
-}
-
-.et_pb_menu .et_pb_menu__menu>nav>ul {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
 
 .et_pb_menu .et-menu-nav>ul {
     padding: 0 !important;
@@ -234,65 +153,8 @@ nav.et-menu-nav {
     margin-right: -11px;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
- ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-
-li {
-    padding: 0;
-    border: 0;
-    outline: 0;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent;
-} 
-
-
-a {
-    margin: 0;
-    border: 0;
-    outline: 0;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-div {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-.et_pb_menu .et_pb_menu__menu>nav>ul>li.mega-menu {
-    position: static;
-}
-
 .et_pb_menu .et_pb_menu__menu>nav>ul>li {
     display: flex;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
     align-items: stretch;
     margin: 0;
 }
@@ -306,11 +168,12 @@ div {
 }
 #et-boc #main-header .nav>li>a {
     color: #4e4d4e !important;
+   
 }
 
  .et_pb_menu--with-logo .et_pb_menu__menu>nav>ul>li>a {
      white-space: nowrap;
-    margin-left: 10px;
+    margin-left: 31px;
  }
 
 .et_pb_menu_0_tb_header.et_pb_menu .et-menu-nav li a {
@@ -318,10 +181,7 @@ div {
 }
 
 .et_pb_menu--with-logo .et_pb_menu__menu>nav>ul>li>a {
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     white-space: nowrap;
 }
@@ -329,15 +189,6 @@ div {
 .et_pb_menu_0_tb_header.et_pb_menu ul li a {
     text-transform: uppercase;
     font-size: 16px;
-}
-
-.et-menu li>a {
-    word-wrap: break-word;
-}
-
-et-menu a,
-.et-menu a:hover {
-    transition: all .4s ease-in-out;
 }
 
 .et-menu a {
